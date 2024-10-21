@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Layout</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+
+        }
+        .left {
+
+            background-color: aqua;
+            width: 50%;
+            height: 100vb;
+        }
+        .right{
+            flex-direction: column;
+            width: 50%;
+            height: 100vb;
+        }
+        .right-top {
+            background-color: red;
+            height: 50%;
+        }
+        .right-bottom {
+            background-color: rgb(149, 136, 136);
+            height: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">1</div>
+    <div class="right">
+        <div class="right-top">2</div>
+        <div class="right-bottom">3</div>
+    </div>
+
+
+</body>
+</html>
